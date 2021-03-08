@@ -17,24 +17,25 @@ fun main(){
         else {
             print("tahmininizi giriniz:")
             var sayı = girdi.nextInt()
+            
             if (sayı < rastgeleSayı) {
                 println("daha büyük bir sayı dene")
                 hak -= 1
                 println("Kalan hakkınız $hak")
                 continue
             }
+            
             if(sayı>rastgeleSayı){
                 println("daha küçük bir sayı dene")
                 hak -= 1
                 println("Kalan hakkınız $hak")
                 continue
             }
+            
             else{
                 println("tebrikler doğru sayıyı buldunuz")
                 break
             }
         }
-
     }
-
 }
