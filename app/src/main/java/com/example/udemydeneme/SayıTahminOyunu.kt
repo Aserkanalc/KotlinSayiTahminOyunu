@@ -6,7 +6,7 @@ import kotlin.random.Random
 fun main(){
 
     var girdi=Scanner(System.`in`)
-    var hak= 100
+    var hak= 3
     var rastgeleSayı= Random.nextInt(0,101)
 
     while(true){
